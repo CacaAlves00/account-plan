@@ -5,12 +5,16 @@ import Header from '@/components/Header/Header'
 import DateFilteringButtons from '@/components/DateFilteringButtons/DateFilteringButtons'
 import { useState } from 'react'
 import MainButtons from '../components/MainButtons/MainButtons'
+import ReportTable from '@/components/ReportTable/ReportTable'
+import useFetchReportTableData from '@/hooks/useFetchReportTableData'
 
 export type DateFilter = (
   'TODAY' | 'YESTERDAY' | 'MONTH'
 )
 
 export default function Home() {
+
+  const [columns, data] = useFetchReportTableData()
 
   return (
     <>
@@ -28,6 +32,8 @@ export default function Home() {
 
         <main className={styles.main}>
           <MainButtons />
+
+          <ReportTable columns={columns} data={data} />
         </main>
       </article>
     </>

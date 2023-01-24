@@ -2,17 +2,21 @@
     display: grid;
     grid-template-columns: [void-start] 23.33% [void-end h1-start] 53.33%
     [h1-end icon-start] 23.33% [icon-end];
+
+    height: 10vh;
   
     h1 {
       grid-column: h1;
       text-align: center;
       font-weight: 500;
-      font-size: 4rem;
+      font-size: 3.5rem;
       margin: 3vh 0 0 0;
     }
   
     img {
       grid-column: icon;
       align-self: end;
+      height: 6.2rem;
+      width: 6.2rem;
     }
   }

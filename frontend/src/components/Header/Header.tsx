@@ -8,7 +8,7 @@ function Header() {
             <h1>Plano de contas </h1>
 
             <Image
-                src="/trending_up.svg"
+                src='/trending_up_black.svg'
                 alt='Trending up'
                 width={100}
                 height={100}

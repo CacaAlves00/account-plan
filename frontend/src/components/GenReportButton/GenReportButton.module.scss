@@ -1,0 +1,16 @@
+#gen-report-button {
+  border: 1px solid #0a0a0a;
+  cursor: pointer;
+  min-height: 5vh;
+  width: 15vw;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  transition: background-color 0.3s;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: rgba(133, 187, 101, 0.7) !important;
+}
+}

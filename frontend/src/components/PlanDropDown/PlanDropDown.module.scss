@@ -1,0 +1,28 @@
+.plan-drop-down, .plan-drop-down-menu {
+    border: 1px solid #0A0A0A;   
+    cursor: pointer;
+    width: 15vw;
+    min-height: 5vh;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 3px;
+
+}
+
+.plan-drop-down-menu {
+    border: none;
+    
+    & > *:hover {
+        background-color: rgba(133, 187, 101, 0.7) !important;
+    }
+}
+
+.plan-drop-down-control {
+    border: none !important;
+}
+
+.plan-drop-down-control:hover {
+    cursor: pointer;
+    background-color: rgba(133, 187, 101, 0.7);
+    
+}

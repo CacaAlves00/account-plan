@@ -1,0 +1,39 @@
+#info-carousel {
+  width: 50%;
+  height: 11vh;
+  border: 1px solid #0a0a0a;
+  border-radius: 3px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  #top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #top-middle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        font-weight: 500;
+        margin: 0 0.5vw 0 0;
+      }
+    }
+  }
+
+  #bottom {
+    width: 100%;
+
+    h3 {
+      font-weight: 500;
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      color: #85BB65;
+    }
+  }
+}

@@ -1,12 +1,14 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit'
 
 export enum Plans {
-    'Contas a pagar',
+    'Contas a pagar' = 0,
     'Despesas fixas',
     'Receita a débito',
     'Receita a crédito', 
     'Receita a dinheiro'
 }
+
+export type Plan = keyof typeof Plans
 
 type PlanState = {
     plan: Plans

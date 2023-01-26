@@ -7,20 +7,4 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    button {
-        width: 30%;
-        height: 4.3vh;
-        border-radius: 3px;
-        border: 1px solid #0A0A0A;
-        background-color: transparent;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        font-size: 1rem;
-        font-family: 'Quicksand', sans-serif;
-    }
-    
-    button:hover {
-        background-color: rgba(133, 187, 101, 0.7) !important;
-    }
 }

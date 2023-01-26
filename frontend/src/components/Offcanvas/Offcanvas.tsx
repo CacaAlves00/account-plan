@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styles from './Offcanvas.module.scss'
 import { useAppDispatch, useAppSelector } from '@/redux/hooks'
 import { toggleOffcanvas } from '@/redux/states/offcanvas'
+import Button from '../Button/Button'
 
 function Offcanvas() {
 
@@ -14,7 +15,35 @@ function Offcanvas() {
             style={{ width: offcanvasShowing ? '25vw' : '0' }}
             onMouseLeave={() => dispatch(toggleOffcanvas())}
         >
-            Offcanvas
+            <h2>Menu</h2>
+
+            <Button
+                onClick={() => {}}
+                width='70%'
+            >
+                Gerar relatório
+            </Button>
+
+            <Button
+                onClick={() => {}}
+                width='70%'
+            >
+                Cadastrar plano
+            </Button>
+
+            <Button
+                onClick={() => {}}
+                width='70%'
+            >
+                Cadastrar conta
+            </Button>
+
+            <Button
+                onClick={() => {}}
+                width='70%'
+            >
+                Cadastrar cliente
+            </Button>
         </div>
     )
 }

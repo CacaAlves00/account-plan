@@ -7,10 +7,7 @@ import { useState } from 'react'
 import MainButtons from '../components/MainButtons/MainButtons'
 import ReportTable from '@/components/ReportTable/ReportTable'
 import useFetchReportTableData from '@/hooks/useFetchReportTableData'
-
-export type DateFilter = (
-  'TODAY' | 'YESTERDAY' | 'MONTH'
-)
+import Offcanvas from '@/components/Offcanvas/Offcanvas'
 
 export default function Home() {
 
@@ -25,6 +22,8 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <article>
+
+        <Offcanvas />
 
         <Header />
 

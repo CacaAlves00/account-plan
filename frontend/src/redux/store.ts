@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit'
 import dateFilter from './states/dateFilter'
 import plan from './states/plan'
+import offcanvas from './states/offcanvas'
 
 const store = configureStore({
     reducer: {
         'dateFilter': dateFilter,
         'plan': plan,
+        'offcanvas': offcanvas
 
     }
 })

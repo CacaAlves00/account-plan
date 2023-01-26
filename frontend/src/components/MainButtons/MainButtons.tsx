@@ -7,7 +7,7 @@ import styles from './MainButtons.module.scss'
 function MainButtons() {
     return (
         <section id={styles['main-buttons']}>
-            <GenReportButton />
+            {/* <GenReportButton /> */}
 
             <InfoCarousel />
 

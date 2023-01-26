@@ -1,0 +1,12 @@
+#offcanvas {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border: 1px solid #0a0a0a;
+  background-color: white;
+}
